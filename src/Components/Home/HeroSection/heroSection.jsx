@@ -1,0 +1,38 @@
+import React from "react";
+function HeroSection() {
+  return (
+    <>
+      <div className="container">
+        <div className="row">
+          <div
+            className="bg-dark col-12 text-white text-center d-flex flex-column justify-content-center align-items-center"
+            style={{
+              height: "100vh",
+              backgroundImage: "url(/bgmi-hero.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
+            <h1 className="display-4 fw-bold mb-3">
+              Join the Battle. Rule the Arena.
+            </h1>
+            <p className="lead mb-4">
+              HocxGaming organizes top-tier BGMI tournaments and live streams to
+              bring out the best in gamers.
+            </p>
+            <div>
+              <a href="/tournaments" className="btn btn-warning btn-lg me-3">
+                Join Tournament
+              </a>
+              <a href="#live" className="btn btn-outline-light btn-lg">
+                Watch Live
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default HeroSection;

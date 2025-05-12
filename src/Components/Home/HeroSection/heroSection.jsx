@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function HeroSection() {
   return (
     <>
@@ -21,9 +22,9 @@ function HeroSection() {
               bring out the best in gamers.
             </p>
             <div>
-              <a href="/tournament" className="btn btn-warning btn-lg me-3">
+              <Link to="/tournaments" className="btn btn-warning btn-lg me-3">
                 Join Tournament
-              </a>
+              </Link>
               <a href="https://www.youtube.com/@Hocxgaming" target="main" className="btn button btn-outline-light btn-lg">
                 Watch Live
               </a>

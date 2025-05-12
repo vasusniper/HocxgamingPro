@@ -8,13 +8,16 @@ import Contact from './Components/Contact/contactPage';
 import Tournament from './Components/Tournament/tournamentPage';
 import Footer from './Components/Footer';
 import NotFound from './Components/error/errorPage';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
+    <>
     <Router>
       <div className="app">
         <Navbar />
         <main className="main-content">
+        <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tournaments" element={<Tournament />} />
@@ -26,6 +29,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+        </>
   );
 }
 

@@ -1,0 +1,17 @@
+.about-page{
+    padding: 40px;
+}
+.about-title{
+ text-align: center;
+ font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+font-weight:700;
+    margin-top:8rem
+}
+@media (max-width: 768px) {
+    .about-title{
+        margin-top: 3rem;
+    }
+  
+  }

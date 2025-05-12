@@ -46,9 +46,8 @@ function Navbar() {
     <>
       <AppBar
         component="nav"
-        color="primary"
         sx={{
-          px: { xs: 2, sm: 6, md: 12 }// mobile: 16px, tablet: 48px, desktop: 96px
+          px: { xs: 2, sm: 6, md: 12 },backgroundColor:"#133E87"// mobile: 16px, tablet: 48px, desktop: 96px
         }}
       >
         <Toolbar

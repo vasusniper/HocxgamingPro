@@ -3,7 +3,7 @@ import "./homePage.css";
 // Import components
 import HeroSection from "./HeroSection/heroSection";
 import YouTubeEmbed from "./YoutubeEmbed/youtubeEmbed";
-import UpcomingTournaments from "./UpcomingTour/upcomingTournaments";
+import Tournament from "../Tournament/tournamentPage";
 
 
 export default function HomePage() {
@@ -12,8 +12,9 @@ export default function HomePage() {
       <div className="container-fluid">
         <div className="row">
           <HeroSection />
-          <UpcomingTournaments />
+          <Tournament/>
           <YouTubeEmbed />
+          
         </div>
       </div>
     </>

@@ -2,7 +2,7 @@ import React from "react";
 import './Footer.css'; // Import your CSS file for styling
 function Footer() {
   return (
-    <footer className="bg-primary text-white py-3 w-100">
+    <footer className="footer text-white py-3 w-100">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">

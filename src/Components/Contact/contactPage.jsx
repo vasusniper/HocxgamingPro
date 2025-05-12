@@ -17,10 +17,17 @@ function ContactPage() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log("Form Submitted: ", formData);
+    e.preventDefault(); // form reload se bachega
+    alert("Message sent successfully!");
+  
+    // Optionally: form reset karne ke liye
+    setFormData({
+      name: "",
+      email: "",
+      message: ""
+    });
   };
+  
 
   return (
     <div className="contact-page" style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
@@ -168,7 +175,7 @@ function ContactPage() {
           <strong>Email:</strong> contact@hocxgaming.com
         </p>
         <p>
-          <strong>Phone:</strong> +91 9876543210
+          <strong>Phone:</strong> +91 1205274906
         </p>
       </div>
 

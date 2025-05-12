@@ -21,10 +21,10 @@ function HeroSection() {
               bring out the best in gamers.
             </p>
             <div>
-              <a href="/tournaments" className="btn btn-warning btn-lg me-3">
+              <a href="/tournament" className="btn btn-warning btn-lg me-3">
                 Join Tournament
               </a>
-              <a href="#live" className="btn button btn-outline-light btn-lg">
+              <a href="https://www.youtube.com/@Hocxgaming" target="main" className="btn button btn-outline-light btn-lg">
                 Watch Live
               </a>
             </div>

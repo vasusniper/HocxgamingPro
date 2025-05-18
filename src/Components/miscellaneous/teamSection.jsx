@@ -2,6 +2,7 @@ import React from "react";
 import MoreTextBtn from "./moreTextBtn";
 import Sachin from "../../assets/Sachin.jpg"
 import Vasusniper from "../../assets/Vasu-Sniper.png"
+import "../About/aboutPage.css";
 import Yas from "../../assets/Yas.jpg"
 const TeamSection = () => {
   return (

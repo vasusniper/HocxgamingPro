@@ -112,7 +112,7 @@ function ContactPage() {
             <button
               type="submit"
               style={{
-                width: "100%",
+                width: "fit-content",
                 padding: "12px",
                 backgroundColor: "#1976d2",
                 color: "#fff",
@@ -121,6 +121,12 @@ function ContactPage() {
                 borderRadius: "5px",
                 border: "none",
                 cursor: "pointer",
+                margin: "0 auto",
+                display: "block",
+                transition: "background-color 0.3s",
+                boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+                textAlign: "center",
+                textDecoration: "none",
               }}
             >
               Send Message
@@ -182,8 +188,9 @@ function ContactPage() {
       <Link
         to="/"
         style={{
+          width: "fit-content",
           display: "block",
-          marginTop: "30px",
+          margin: "30px auto",
           textAlign: "center",
           padding: "10px 20px",
           backgroundColor: "#1976d2",

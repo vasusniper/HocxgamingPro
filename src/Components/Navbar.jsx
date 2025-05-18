@@ -52,9 +52,10 @@ function Navbar() {
       >
         <Toolbar
           sx={{
-            minHeight: { xs: 64, sm: 80, md: 120 }, // mobile:64, tablet:80, desktop:120
+            minHeight: { xs: 64, sm: 80, md: 50 },
             display: "flex",
             justifyContent: "space-between",
+
           }}
         >
           <Typography

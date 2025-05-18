@@ -16,7 +16,7 @@ function Footer() {
               <a href="#" target="_blank" >
               <i class="fa-brands fa-instagram"></i>
               </a>
-              <a href="h#" target="_blank" >
+              <a href="#" target="_blank" >
               <i class="fa-brands fa-x-twitter"></i>
               </a>
               <a href="https://www.youtube.com/hocxgaming" target="_blank">

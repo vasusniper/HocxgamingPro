@@ -4,6 +4,7 @@ import "./homePage.css";
 import HeroSection from "./HeroSection/heroSection";
 import YouTubeEmbed from "./YoutubeEmbed/youtubeEmbed";
 import Tournament from "../Tournament/tournamentPage";
+import TeamSection from "../miscellaneous/teamSection";
 
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
           <HeroSection />
           <Tournament/>
           <YouTubeEmbed />
+          <TeamSection/>
           
         </div>
       </div>

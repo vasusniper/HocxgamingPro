@@ -29,6 +29,7 @@ function HeroSection() {
                 Watch Live
               </a>
             </div>
+
           </div>
         </div>
       </div>

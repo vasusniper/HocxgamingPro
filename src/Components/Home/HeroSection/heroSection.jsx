@@ -25,7 +25,7 @@ function HeroSection() {
               <Link to="/tournaments" className="btn btn-warning btn-lg me-3">
                 Join Tournament
               </Link>
-              <a href="https://www.youtube.com/@Hocxgaming" target="main" className="btn button btn-outline-light btn-lg">
+              <a href="https://www.youtube.com/@Hocxesport" target="main" className="btn button btn-outline-light btn-lg">
                 Watch Live
               </a>
             </div>
